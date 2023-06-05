@@ -1,0 +1,11 @@
+image: Ubuntu1804
+
+branches:
+  only:
+    - main
+
+build: off
+
+build_script:
+  - chmod +x gradlew
+  - ./gradlew build
