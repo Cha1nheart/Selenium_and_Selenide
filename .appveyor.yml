@@ -11,6 +11,3 @@ build: off
 build_script:
   - chmod +x gradlew
   - ./gradlew test --info
-
-install:
-- java -jar ./artifacts/appapp-order.jar
